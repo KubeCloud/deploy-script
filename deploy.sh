@@ -11,6 +11,10 @@ case $i in
     -j=*|--jar=*)
     JAR="${i#*=}"
     ;;
+
+     *)
+            # unknown option
+    ;;
 esac
 done
 
