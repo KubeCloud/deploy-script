@@ -38,5 +38,7 @@ echo "######### STEP 2 - PUSHING CONTAINER TO HUB.DOCKER.COM #########"
 docker push ${REPO}:${VERSION}
 docker push ${REPO}:latest
 
+rm Dockerfile
+
 echo
 echo "######### ALL DONE! #########"
